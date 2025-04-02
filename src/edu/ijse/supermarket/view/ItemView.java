@@ -5,7 +5,7 @@
 package edu.ijse.supermarket.view;
 
 import edu.ijse.supermarket.dto.ItemDto;
-import edu.ijse.supermarket.connector.ItemController;
+import edu.ijse.supermarket.controller.ItemController;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;

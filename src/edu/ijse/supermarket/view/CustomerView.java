@@ -4,7 +4,7 @@
  */
 package edu.ijse.supermarket.view;
 
-import edu.ijse.supermarket.connector.CustomerController;
+import edu.ijse.supermarket.controller.CustomerController;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 import edu.ijse.supermarket.dto.CustomerDto;
