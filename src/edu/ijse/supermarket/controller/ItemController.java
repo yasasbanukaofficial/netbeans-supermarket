@@ -28,4 +28,8 @@ public class ItemController {
         String resp = itemModel.deleteItem(itemDto);
         return resp;
     }
+    public ItemDto searchItem(String itemCode) throws ClassNotFoundException, SQLException{
+        ItemDto itemDto = itemModel.searchItem(itemCode);
+        return itemDto;
+    }
 }

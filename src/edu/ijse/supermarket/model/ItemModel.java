@@ -47,7 +47,7 @@ public class ItemModel {
         
         return statement.executeUpdate() > 0 ? "Successfully updated an item" : "Failed to update an item";
     }
-    public ItemDto getItem(String itemCode) throws ClassNotFoundException, SQLException{
+    public ItemDto searchItem(String itemCode) throws ClassNotFoundException, SQLException{
         Connection connection = DBConnection.getInstance().getConnection();
         String search = "SELECT * FROM Item WHERE ItemCode = ?";
         PreparedStatement statement = connection.prepareStatement(search);
